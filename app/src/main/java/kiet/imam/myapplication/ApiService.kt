@@ -11,7 +11,7 @@ interface ApiService {
 
 object ApiClient {
     private val retrofit = Retrofit.Builder()
-        .baseUrl("https://powerplaybackend-7mfm.onrender.com/") // Replace with your API base URL
+        .baseUrl("https://powerplaybackend-7mfm.onrender.com/") 
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
